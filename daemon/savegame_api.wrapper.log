@@ -1,2 +1,0 @@
-2023-04-18 18:31:53 - Starting E:\save_game_app\savegame_server_api\savegame_api.exe  --harmony --max_old_space_size=4096 E:\save_game_app\savegame_server_api\node_modules\node-windows\lib\wrapper.js --file E:\save_game_app\savegame_server_api\savegame_api.exe --scriptoptions=start --log "SaveGame_API wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
-2023-04-18 18:31:53 - Started 2036

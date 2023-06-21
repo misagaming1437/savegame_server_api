@@ -10,7 +10,11 @@ ResponseCustomer.init({
     customer: {
         type: DataTypes.STRING
     },
-    content: {
+    responseType: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    message: {
         type: DataTypes.STRING
     },
 

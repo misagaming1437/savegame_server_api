@@ -10,11 +10,12 @@ import userRoute from './routes/userRoute.js';
 import gameRoute from './routes/gameRoute.js';
 import { initPointRoute } from './routes/point_route.js'
 import { initNoteRoute } from './routes/note_route.js'
+import { initResponseCustomerRoute } from './routes/response_customer.js'
 import categoryRoute from './routes/categoryRoute.js';
 import { initGameCategoryRoute } from './routes/game_categpory_route.js'
 import { pathStoredSave } from './configs/index.js'
 import { sequelize } from './connectDB.js';
-import { sequelize2 } from './connectDB2.js';
+import { sequelize as sequelize2 } from './connectDB2.js';
 import { showConsole, hideConsole } from "node-hide-console-window";
 
 import { installService, unInstallService } from './savegame_service.js'
@@ -68,6 +69,7 @@ initNoteRoute(app);
 gameRoute.initGameRoute(app);
 categoryRoute.initCategoryRoute(app);
 initGameCategoryRoute(app);
+initResponseCustomerRoute(app);
 
 
 // err handler function

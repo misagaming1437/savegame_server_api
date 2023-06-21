@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize"
-export const sequelize2 = new Sequelize({
+export const sequelize = new Sequelize({
     dialect: 'sqlite',
     storage: './misa_info.db'
 })
 export default {
-    sequelize2
+    sequelize
 }
