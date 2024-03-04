@@ -33,5 +33,13 @@
     "path": "^0.12.7",
     "sequelize": "^6.29.0",
     "sqlite3": "^5.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/misagaming1437/savegame_server_api/issues"
+  },
+  "homepage": "https://github.com/misagaming1437/savegame_server_api#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misagaming1437/savegame_server_api.git"
   }
 }
